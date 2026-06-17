@@ -10,9 +10,9 @@ import java.util.regex.Pattern;
 public class VehicleMaintenanceScheduler {
 
     // --- ENDPOINTS ---
-    private static final String AUTH_API = "http://4.224.186";
-    private static final String DEPOTS_API = "http://4.224.186"; 
-    private static final String VEHICLES_API = "http://4.224.186";
+    private static final String AUTH_API = "http://4.224.186.213/evaluation-service/auth";
+    private static final String DEPOTS_API = "http://4.224.186.213/evaluation-service/depots"; 
+    private static final String VEHICLES_API = "http://4.224.186.213/evaluation-service/vehicles";
 
     public static void main(String[] args) {
         try {
